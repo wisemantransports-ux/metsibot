@@ -1,0 +1,29 @@
+{
+  "name": "metsibot",
+  "version": "1.0.0",
+  "description": "Telegram bot for water prediction and receipt scanning",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisemantransports-ux/metsibot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisemantransports-ux/metsibot/issues"
+  },
+  "homepage": "https://github.com/wisemantransports-ux/metsibot#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.95.3",
+    "axios": "^1.13.5",
+    "dotenv": "^17.2.4",
+    "node-cron": "^4.2.1",
+    "telegraf": "^4.16.3"
+  }
+}
